@@ -17,7 +17,10 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom border-warning border-5">
     <div class="container">
       <a class="navbar-brand" href="#"><img class="img-fluid" src="images/logo.jpg" width="90"></a>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item px-4">
             <a class="nav-link active text-secondary" aria-current="page" href="#">關於</a>
@@ -113,7 +116,7 @@
 </section>
 
 <!-- 中間選單 -->
-<section class="border-top border-bottom mb-5">
+<section class="border-top border-bottom mb-5 sticky-top bg-white">
   <div class="container px-0">
     <ul class="nav nav-pills" id="pills-tab" role="tablist">
       <li class="nav-item" role="presentation">
@@ -152,64 +155,64 @@
           <div class="accordion" id="accordion-faq">
             <div class="accordion-item mb-3">
               <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                <button class="accordion-button btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                <button class="accordion-button collapsed btn " type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                   <span class="badge bg-warning text-secondary p-2 me-2">Q1</span>
                   影片拍完之後可以編輯嗎？
                 </button>
               </h2>
-              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                 <div class="accordion-body">
                   可以進行簡易的編輯，內建 5 種濾鏡，影片秒數有3秒、5秒、10秒可以選擇，拍完的當下可以編輯要印出來的影片範圍哦！
                 </div>
               </div>
             </div>
             <div class="accordion-item mb-3">
-              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                <button class="accordion-button btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
                   <span class="badge bg-warning text-secondary p-2 me-2">Q2</span>
                   影片拍完之後可以編輯嗎？
                 </button>
               </h2>
-              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                 <div class="accordion-body">
                   可以進行簡易的編輯，內建 5 種濾鏡，影片秒數有3秒、5秒、10秒可以選擇，拍完的當下可以編輯要印出來的影片範圍哦！
                 </div>
               </div>
             </div>
             <div class="accordion-item mb-3">
-              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                <button class="accordion-button btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
                   <span class="badge bg-warning text-secondary p-2 me-2">Q3</span>
                   影片拍完之後可以編輯嗎？
                 </button>
               </h2>
-              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                 <div class="accordion-body">
                   可以進行簡易的編輯，內建 5 種濾鏡，影片秒數有3秒、5秒、10秒可以選擇，拍完的當下可以編輯要印出來的影片範圍哦！
                 </div>
               </div>
             </div>
             <div class="accordion-item mb-3">
-              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                <button class="accordion-button btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                <button class="accordion-button collapsed btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">
                   <span class="badge bg-warning text-secondary p-2 me-2">Q4</span>
                   影片拍完之後可以編輯嗎？
                 </button>
               </h2>
-              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
                 <div class="accordion-body">
                   可以進行簡易的編輯，內建 5 種濾鏡，影片秒數有3秒、5秒、10秒可以選擇，拍完的當下可以編輯要印出來的影片範圍哦！
                 </div>
               </div>
             </div>
             <div class="accordion-item mb-3">
-              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                <button class="accordion-button btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                <button class="accordion-button collapsed btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true" aria-controls="panelsStayOpen-collapseFive">
                   <span class="badge bg-warning text-secondary p-2 me-2">Q5</span>
                   影片拍完之後可以編輯嗎？
                 </button>
               </h2>
-              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
                 <div class="accordion-body">
                   可以進行簡易的編輯，內建 5 種濾鏡，影片秒數有3秒、5秒、10秒可以選擇，拍完的當下可以編輯要印出來的影片範圍哦！
                 </div>
@@ -380,7 +383,7 @@
     </div>
     <!-- 右方欄位 -->
     <div class="col-12 col-md-4">
-      <div class="position-sticky overflow-scroll">
+      <div class="sticky-part position-sticky overflow-scroll">
       <!-- 商家卡片 -->
       <div class="card w-100">
         <div class="card-body">

@@ -88,9 +88,12 @@
     @include border-radius($nav-pills-border-radius);
   }
 
+  // 自定義
   .nav-link.active,
   .show > .nav-link {
-    border-bottom: 3px solid $warning; // 自定義
+    border-bottom: 3px solid $warning;
+    color: $dark;
+    font-weight: bold;
   }
 }
 
