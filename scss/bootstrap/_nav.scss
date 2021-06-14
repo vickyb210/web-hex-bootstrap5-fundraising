@@ -90,8 +90,7 @@
 
   .nav-link.active,
   .show > .nav-link {
-    color: $nav-pills-link-active-color;
-    @include gradient-bg($nav-pills-link-active-bg);
+    border-bottom: 3px solid $warning; // 自定義
   }
 }
 
